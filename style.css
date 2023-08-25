@@ -55,6 +55,24 @@ width: 85%;
 width: 179px;
 margin-inline: 10px;
 }
+.offer{
+    align-items: center;
+    display: flex;
+    left: 10%;
+    top: 0px;
+    position: absolute;
+    z-index: 10;
+}
+
+.offer-percentage{
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 9px;
+    text-align: center;
+    z-index: 20;
+    position: absolute;
+    margin-left: 5px;
+}
 .my-card-time{
     width: fit-content;
     border-radius: 4px;
@@ -65,6 +83,8 @@ margin-inline: 10px;
     color: rgb(54, 54, 54);
 }
 .my-card-title{
+    overflow: hidden;
+    line-height: 18px;
     color: rgb(31, 31, 31);
     font-weight: 600;
     font-size: 13px;
@@ -86,12 +106,15 @@ margin-inline: 10px;
 .category-section{
     margin: auto;
     width: 85%;
+    margin-bottom: 10px;
 }
 .category-section-row{
     width: 100%;
     overflow-x: auto;
+    padding: 10px;
 }
 .myfooter{
+    padding-top: 20px;
 width: 85%;
 margin: auto;
 }
@@ -103,10 +126,18 @@ margin: auto;
 
 .useful-links{
     flex: 2;
+    /* margin: 24px 0px; */
 }
 
 .categories-links{
     flex: 3;
+}
+.link{
+    text-decoration: none;
+    padding-left: 16px;
+    color: rgb(12, 131, 31) !important;
+    font-size: 16px;
+    font-weight: lighter;
 }
 table{
     width: 100%;
@@ -120,7 +151,7 @@ td{
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 10px;
+padding: 18px;
 }
 .row-2>p{
     text-align: justify;
@@ -134,20 +165,17 @@ padding: 10px;
     font-size: 14px;
     margin: 16px;
 }
-.download-btn{
-    background-color: #213b50;
-    color: white;
-    border-radius: 10px;
-    margin: 10px;
-    border: none;
-    padding: 10px;
+.row-2>div>img{
+    padding-left: 10px;
 }
 .row-3{
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    line-height: 18px;
+    margin: 12px;
     text-align: justify;
-    color: #666666;
-    font-size: 15px;
-    padding: 10px;
 }
+
 .social{
     display: flex;
 }
