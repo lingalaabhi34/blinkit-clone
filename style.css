@@ -1,3 +1,7 @@
+.hero>img{
+    width: 100% !important;
+}
+
 .location>h5{
     color: rgb(0, 0, 0);
     font-weight: 800;
@@ -191,7 +195,13 @@ padding: 18px;
     font-size: 30px;
     margin-inline: 10px;
 }
-
+.love>p{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+padding-left: 50%;
+font-weight: 400;
+}
 @media screen and (max-width:768px){
 nav,.row-1,.row-2{
     flex-direction: column !important;
